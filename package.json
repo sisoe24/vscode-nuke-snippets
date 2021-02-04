@@ -3,6 +3,7 @@
     "displayName": "nuke-python-snippets",
     "description": "Visual Studio Code snippets for Nuke Python API.",
     "version": "0.0.1",
+    "icon": "images/nuke_icon.png",
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -16,5 +17,9 @@
                 "path": "./snippets/snippets.code-snippets"
             }
         ]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/sisoe24/vscode-nuke-snippets"
     }
 }
