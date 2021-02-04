@@ -12,12 +12,11 @@ description and arguments with vscode snippet style placeholders:
 ## Known Issues
 
 * The documentation does not always list the arguments or makes it clear to which is optional. Some of the snippets include a long description where you can understand better,
-but some of them won't (again it depends on the web documentation).
-* Because the snippets are automatically generated, I could not verify manually that everything is absolutely correct.
+but some of them won't (again it depends on the web documentation)
 
 ## Release Notes
 
-* The nuke modules availiable localy are missing from the snippets, as you could obtain a better autocomplete if you reference them.
+* The nuke modules availiable locally are missing from the snippets, as you could obtain a better autocomplete if you reference them.
 * Classes magic methods are not included.
 * Class methods snippets are included but they should be better used as a _peak view_ in the API. An example would be `nuke.Node().channels()`; yes you can add an argument to `Node()` and create one, but is likely that you already have a variabile with that type of object: `n = nuke.createNode('Tracker')`. In that case you could "sneak peak" the API to see what methods are availabile for a `Node` object
 
