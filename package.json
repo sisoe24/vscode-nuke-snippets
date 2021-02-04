@@ -1,0 +1,20 @@
+{
+    "name": "nuke-python-snippets",
+    "displayName": "nuke-python-snippets",
+    "description": "Visual Studio Code snippets for Nuke Python API.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "python",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}
