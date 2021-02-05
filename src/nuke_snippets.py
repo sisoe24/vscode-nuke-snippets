@@ -283,5 +283,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-nuke.tprint(value, sep=' ', end='\n', file=sys.stdout, ...)
