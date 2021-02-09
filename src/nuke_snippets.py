@@ -12,7 +12,7 @@ import regex
 from bs4 import BeautifulSoup
 
 
-# TODO: convert double qoutes to single quotes?
+# TODO: convert double quotes to single quotes?
 
 logging.basicConfig(format='%(levelname)s: %(message)15s',
                     filename='log/report.log', filemode='w',
@@ -24,7 +24,7 @@ SNIPPETS = {}
 def clean_header(function: str) -> str:
     """Clean function header text.
 
-    Some functions arugments are splitted into multiple lines, so they need
+    Some functions arguments are splitted into multiple lines, so they need
     to be put back together and clean the empty spaces left.
 
     Args:
@@ -172,7 +172,7 @@ def functions(page: BeautifulSoup, section: str) -> Generator:
         yield summary.strip()
 
 
-def class_link_page(page: BeautifulSoup) -> str:
+def class_link_page(page: BeautifulSoup) -> Generator:
     """Extract link reference for nuke classes.
 
     Args:
