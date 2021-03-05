@@ -2,12 +2,6 @@
 	"folders": [
 		{
 			"path": ".."
-		},
-		{
-			"path": "../../../../Projects/nuke_launcher"
-		},
-		{
-			"path": "/Users/virgil/.hammerspoon/Spoons/HNukeLauncher.spoon"
 		}
 	],
 	"settings": {
