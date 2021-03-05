@@ -4,3 +4,6 @@
 vsc-extension-quickstart.md
 log
 other
+src
+tests
+Pipfile*
