@@ -11,6 +11,9 @@
     "categories": [
         "Snippets"
     ],
+    "keywords": [
+        "Snippets", "Nuke", "Python", "TheFoundry", "Foundry"
+    ],
     "contributes": {
         "snippets": [
             {
