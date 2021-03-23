@@ -14,6 +14,8 @@ The [Nuke Python API documentation](https://learn.foundry.com/nuke/developers/70
 
 ## Release Notes
 
+> This [extension](https://marketplace.visualstudio.com/items?itemName=virgilsisoe.toggle-snippets-suggestion) is helpful to disable/enable snippets from the status bar or command.
+
 * The nuke modules available locally are missing from the snippets, as you could obtain a better autocomplete if you reference them.
 * Classes magic methods are not included.
 * Class methods snippets are included but they should be better used as a _peak view_ in the API. An example would be `nuke.Node().method()`; yes you can add an argument to `Node()` and create one, but is likely that you already have a variable with that type of object: `n = nuke.createNode('Tracker')`. In that case you could "sneak peak" the API to see what methods are available for a `Node` object
