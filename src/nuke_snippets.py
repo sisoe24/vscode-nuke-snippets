@@ -13,6 +13,7 @@ from bs4 import BeautifulSoup
 
 
 # TODO: convert double quotes to single quotes?
+# TODO: include other modules, like const vars?
 
 logging.basicConfig(format='%(levelname)s: %(message)15s',
                     filename='log/report.log', filemode='w',
@@ -266,6 +267,9 @@ def generate_json(snippets: dict, filename=''):
         filename (str, optional): optional filename. Defaults to ''.
     """
     snippets_filepath = f'snippets/{filename}snippets.code-snippets'
+
+    if os.path.exists(snippets_filepath):
+        os.rename(snippets_filepath, snippets_filepath + '.old')
 
     with open(snippets_filepath, 'w') as snippets_file:
         snippets_file.write("{}")
