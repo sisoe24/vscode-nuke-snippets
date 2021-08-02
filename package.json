@@ -1,10 +1,14 @@
 {
     "name": "nuke-python-snippets",
-    "displayName": "nuke-python-snippets",
+    "displayName": "Nuke Python Snippets",
     "description": "Visual Studio Code snippets for Nuke Python API.",
     "version": "0.0.3",
     "publisher": "virgilsisoe",
     "icon": "images/nuke_icon.png",
+    "extensionPack": [
+        "virgilsisoe.nuke-tools",
+        "virgilsisoe.toggle-snippets"
+    ],
     "engines": {
         "vscode": "^1.52.0"
     },

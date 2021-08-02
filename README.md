@@ -2,6 +2,8 @@
 
 Visual Studio Code snippets for Nuke Python API.
 
+> Be sure to check the sister extension for a bunch of new tools (like code execution from vscode to Nuke) that will make your life easier when writing code: [Nuke Tools](https://marketplace.visualstudio.com/items?itemName=virgilsisoe.nuke-tools).
+
 ## Features
 
 The [Nuke Python API documentation](https://learn.foundry.com/nuke/developers/70/pythonreference) converted to snippets. Snippets include description and arguments with vscode snippet style placeholders:
@@ -12,9 +14,11 @@ The [Nuke Python API documentation](https://learn.foundry.com/nuke/developers/70
 
 * The documentation does not always list the arguments or makes it clear to which is optional. Some of the snippets include a long description where you can understand better, but some of them won't (again it depends on the web documentation).
 
-## Release Notes
+## Other
 
 > This [extension](https://marketplace.visualstudio.com/items?itemName=virgilsisoe.toggle-snippets-suggestion) is helpful to disable/enable snippets from the status bar or command.
+
+## Release Notes
 
 * The nuke modules available locally are missing from the snippets, as you could obtain a better autocomplete if you reference them.
 * Classes magic methods are not included.
