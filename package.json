@@ -2,7 +2,7 @@
     "name": "nuke-python-snippets",
     "displayName": "Nuke Python Snippets",
     "description": "Visual Studio Code snippets for Nuke Python API.",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "publisher": "virgilsisoe",
     "icon": "images/nuke_icon.png",
     "engines": {
