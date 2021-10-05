@@ -9,7 +9,8 @@ Visual Studio Code snippets for Nuke Python API.
 
 If you don't want to use Nuke Tools but would like to use the python stubs anyway you can download the github project from [here](https://github.com/sisoe24/Nuke-Python-Stubs). You can then add the path to `python.analysis.extraPaths`. 
 
-![example](images/auto_complete.gif)
+<img title="CommentUncommentDelete" src="https://raw.githubusercontent.com/sisoe24/Nuke-Python-Stubs/main/images/auto_complete.gif" width="80%"/>
+
 ---
 
 ## Features
@@ -17,6 +18,8 @@ If you don't want to use Nuke Tools but would like to use the python stubs anywa
 The [Nuke Python API documentation](https://learn.foundry.com/nuke/developers/70/pythonreference) converted to snippets. Snippets include description and arguments with vscode snippet style placeholders:
 
 ![example](images/examplex.gif)
+
+
 
 ## Known Issues
 
