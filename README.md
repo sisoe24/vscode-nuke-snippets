@@ -10,7 +10,7 @@ Download Marketplace: [Nuke Tools](https://marketplace.visualstudio.com/items?it
 
 The Nuke Tools extension includes python stubs file generated with type annotations and more, so there are very few reasons to keep using the snippets.
 
-If you don't want to use Nuke Tools but would like to use the python stubs, you can download the github project from [here](https://github.com/sisoe24/Nuke-Python-Stubs). You can then add the path to `python.analysis.extraPaths`.
+If you don't want to use Nuke Tools but would like to use the python stubs, you can download the [github project](https://github.com/sisoe24/Nuke-Python-Stubs). You can then add the path to `python.analysis.extraPaths`.
 
 <img title="CommentUncommentDelete" src="https://raw.githubusercontent.com/sisoe24/Nuke-Python-Stubs/main/images/auto_complete.gif" width="80%"/>
 
