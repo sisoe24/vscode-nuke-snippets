@@ -5,6 +5,7 @@
     "version": "0.0.8",
     "publisher": "virgilsisoe",
     "icon": "images/nuke_icon.png",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.52.0"
     },
