@@ -3,11 +3,14 @@
 Visual Studio Code snippets for Nuke Python API.
 
 ---
-## NOTE
 
-[Nuke Tools](https://marketplace.visualstudio.com/items?itemName=virgilsisoe.nuke-tools) now includes python stubs file generated with type annotations and more. Although not really a dynamic intellisense/auto-complete, it does come really close, so there is no reason to keep using the snippets. 
+## IMPORTANT MESSAGE
 
-If you don't want to use Nuke Tools but would like to use the python stubs anyway you can download the github project from [here](https://github.com/sisoe24/Nuke-Python-Stubs). You can then add the path to `python.analysis.extraPaths`. 
+Download Marketplace: [Nuke Tools](https://marketplace.visualstudio.com/items?itemName=virgilsisoe.nuke-tools) 
+
+The Nuke Tools extension includes python stubs file generated with type annotations and more, so there are very few reasons to keep using the snippets.
+
+If you don't want to use Nuke Tools but would like to use the python stubs, you can download the github project from [here](https://github.com/sisoe24/Nuke-Python-Stubs). You can then add the path to `python.analysis.extraPaths`.
 
 <img title="CommentUncommentDelete" src="https://raw.githubusercontent.com/sisoe24/Nuke-Python-Stubs/main/images/auto_complete.gif" width="80%"/>
 
